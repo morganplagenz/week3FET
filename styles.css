@@ -1,0 +1,135 @@
+
+/* global scope elements*/
+
+body {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif!important;
+} 
+
+h1{
+    color:white;
+    font-size: 4vw;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+h4{
+    font-size: 17px;
+}
+
+a {
+    color: black;
+}
+
+a:hover{
+    color:#d6c7af;
+}
+
+hr{
+    width: 30%;
+    color:#0dcaf0;
+    margin-left:35%;
+    margin-right:35%;
+}
+
+
+/* navbar */
+
+.navbar {
+    padding-left: 10px;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.logo {
+    transition: transform .7s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotate(340deg);
+}
+
+.rotateimg20 { /*this rotates the logo in the left corner of the nav bar*/
+    -webkit-transform:rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+
+
+/* index styling */ 
+
+.banner { /* this is the big picture index page */ 
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+
+
+.centered { /* centers the text in front of the big picture in the index page */ 
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom:10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.centered-button { /* centers the button in front of the big picture in the index page */ 
+    position: absolute;
+    top: 95%;
+    left:  47%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*stying across website*/
+
+.text-background {
+    background-color: #d6c7af;
+    padding: 20px;
+}
+
+.text-background:hover {
+    background-color: #0dcaf0;
+}
+
+.section-background-brown{
+    background-color: #d6c7af;
+    padding:25px;
+}
+
+.leadership-header{ 
+    padding:25px;
+}
+
+.btn {
+    margin:25px;
+}
+
+/* "Giving Back Page" styling */ 
+
+.charity-logo {
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.charity-logo:hover {
+    border: 5px solid #0dcaf0;
+    border-radius: 5px;
+}
